@@ -14,7 +14,7 @@
   --green-gradient: linear-gradient(135deg, #3A6B50 0%, #2A5040 100%);
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; zoom: 0.8; }
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
