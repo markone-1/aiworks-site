@@ -823,7 +823,7 @@ section { padding: 88px 24px; }
      on scroll-reveal. `transform` isn't additive across rules — the fade-in
      rule would silently overwrite a translateX set via `transform` here.
      `translate` composes independently alongside `transform`. */
-  translate: -30% 0;
+  translate: -20% 0;
 }
 
 .area-map img {
