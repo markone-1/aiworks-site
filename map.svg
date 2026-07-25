@@ -142,7 +142,7 @@
   <text
      x="340.1"
      y="526.4"
-     font-size="19"
+     font-size="24px"
      font-weight="700"
      text-anchor="middle"
      fill="#3A6B50"
@@ -150,7 +150,7 @@
   <text
      x="975.2113"
      y="315.53018"
-     font-size="19px"
+     font-size="24px"
      font-weight="700"
      text-anchor="middle"
      fill="#3a6b50"
@@ -158,7 +158,7 @@
   <text
      x="905.7981"
      y="174.59245"
-     font-size="19px"
+     font-size="24px"
      font-weight="700"
      text-anchor="middle"
      fill="#3a6b50"

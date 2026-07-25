@@ -818,7 +818,12 @@ section { padding: 88px 24px; }
   margin: 10px auto 0;
   max-width: 720px;
   text-align: center;
-  transform: translateX(-60%);
+  /* Uses the standalone `translate` property (not `transform`) because this
+     element also carries `.fade-in`, which sets `transform: translateY(...)`
+     on scroll-reveal. `transform` isn't additive across rules — the fade-in
+     rule would silently overwrite a translateX set via `transform` here.
+     `translate` composes independently alongside `transform`. */
+  translate: -30% 0;
 }
 
 .area-map img {
@@ -828,7 +833,7 @@ section { padding: 88px 24px; }
 }
 
 @media (max-width: 768px) {
-  .area-map { transform: none; }
+  .area-map { translate: none; }
 }
 
 /* ── CTA ── */
